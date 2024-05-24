@@ -109,3 +109,13 @@
 .menu:hover{
     cursor: pointer;
 }
+@media screen and (max-width: 450px) {
+    .main_box{
+        background: url(./photo.jpg);
+        height: 100vh;
+        background-size:contain;
+        width: auto;
+        object-fit: fill;
+        background-repeat: no-repeat;
+    }
+  }
